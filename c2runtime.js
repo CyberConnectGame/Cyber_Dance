@@ -26058,16 +26058,16 @@ cr.behaviors.scrollto = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Browser,
 	cr.plugins_.Audio,
+	cr.plugins_.Browser,
 	cr.plugins_.Cocoon_Canvasplus,
 	cr.plugins_.LocalStorage,
 	cr.plugins_.Particles,
 	cr.plugins_.Rex_Pause,
-	cr.plugins_.Touch,
 	cr.plugins_.Text,
-	cr.plugins_.Spritefont2,
+	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
+	cr.plugins_.Spritefont2,
 	cr.behaviors.Rex_MoveTo,
 	cr.behaviors.Car,
 	cr.behaviors.scrollto,
